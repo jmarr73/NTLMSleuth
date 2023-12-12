@@ -31,7 +31,8 @@ To get started with NTLMSleuth, clone the repository, make the files executable,
 
 ### Help (-h)
 
-**BASH**  
+**BASH**
+```
 Usage of NTLMSleuth Shell Script
 ----------------------------
 
@@ -45,8 +46,10 @@ Parameters:
 Example:
 ./NTLMSleuth.sh -i /path/to/input.txt -o /path/to/output.txt
 This example reads lines from 'input.txt' and saves the results to 'output.txt'.
+```
 
-**PowerShell** 
+**PowerShell**
+```
 Usage of NTLMSleuth PowerShell Script
 ---------------------------
 This script reads each line from a specified input file and performs a web request for each line.
@@ -59,3 +62,4 @@ Parameters:
 Example:
 .\NTLMSleuth.ps1 -i 'C:\path\to\input.txt' -o 'C:\path\to\output.txt'
 This example reads lines from 'input.txt' and saves the results to 'output.txt'.
+```
