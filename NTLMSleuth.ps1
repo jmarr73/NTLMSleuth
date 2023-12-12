@@ -62,7 +62,7 @@ function Invoke-WebRequestForEachLine {
 }
 
 function Show-Help {
-    Write-Host "Usage of NTLM.PW.ps1 Script"
+    Write-Host "Usage of NTLMSleuth PowerShell Script"
     Write-Host "---------------------------"
     Write-Host "This script reads each line from a specified input file and performs a web request for each line."
     Write-Host ""
@@ -72,7 +72,7 @@ function Show-Help {
     Write-Host "-h or -Help            Displays this help message."
     Write-Host ""
     Write-Host "Example:"
-    Write-Host ".\NTLM.PW.ps1 -i 'C:\path\to\input.txt' -o 'C:\path\to\output.txt'"
+    Write-Host ".\NTLMSleuth.ps1 -i 'C:\path\to\input.txt' -o 'C:\path\to\output.txt'"
     Write-Host "This example reads lines from 'input.txt' and saves the results to 'output.txt'."
 }
 

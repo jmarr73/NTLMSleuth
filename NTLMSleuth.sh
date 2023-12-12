@@ -2,7 +2,7 @@
 
 # Function to display help
 show_help() {
-    echo "Usage of ntlm_pw.sh Script"
+    echo "Usage of NTLMSleuth Shell Script"
     echo "----------------------------"
     echo "This script reads each line from a specified input file and performs a web request for each line."
     echo ""
@@ -12,7 +12,7 @@ show_help() {
     echo "-h                   Displays this help message."
     echo ""
     echo "Example:"
-    echo "./ntlm_pw.sh -i /path/to/input.txt -o /path/to/output.txt"
+    echo "./NTLMSleuth.sh -i /path/to/input.txt -o /path/to/output.txt"
     echo "This example reads lines from 'input.txt' and saves the results to 'output.txt'."
 }
 

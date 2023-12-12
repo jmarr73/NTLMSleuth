@@ -28,3 +28,34 @@ NTLMSleuth: NTLM Hash Analysis Tool using https://ntlm.pw
 ## Getting Started:
 
 To get started with NTLMSleuth, clone the repository, make the files executable, and begin enhancing your network security analysis today!
+
+### Help (-h)
+
+**BASH**  
+Usage of NTLMSleuth Shell Script
+----------------------------
+
+This script reads each line from a specified input file and performs a web request for each line.
+
+Parameters:
+-i [InputFilePath]   Specifies the path of the input file.
+-o [OutputFilePath]  Specifies the path of the output file to save the results (optional).
+-h                   Displays this help message.
+
+Example:
+./NTLMSleuth.sh -i /path/to/input.txt -o /path/to/output.txt
+This example reads lines from 'input.txt' and saves the results to 'output.txt'.
+
+**PowerShell** 
+Usage of NTLMSleuth PowerShell Script
+---------------------------
+This script reads each line from a specified input file and performs a web request for each line.
+
+Parameters:
+-i or -InputFilePath   Specifies the path of the input file.
+-o or -OutputFilePath  Specifies the path of the output file to save the results (optional).
+-h or -Help            Displays this help message.
+
+Example:
+.\NTLMSleuth.ps1 -i 'C:\path\to\input.txt' -o 'C:\path\to\output.txt'
+This example reads lines from 'input.txt' and saves the results to 'output.txt'.
