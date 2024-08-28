@@ -63,3 +63,5 @@ Example:
 .\NTLMSleuth.ps1 -i 'C:\path\to\input.txt' -o 'C:\path\to\output.txt'
 This example reads lines from 'input.txt' and saves the results to 'output.txt'.
 ```
+
+
